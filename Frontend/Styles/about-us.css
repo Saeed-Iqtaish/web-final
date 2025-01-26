@@ -1,0 +1,153 @@
+/* General Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: linear-gradient(120deg, #e3f2fd, #f0f4f8); /* Subtle gradient background */
+    margin: 0;
+}
+
+/* Hero Section */
+.hero {
+    background: transparent;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    color: #1f2937;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #4a5568;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Content Section */
+.content-section {
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.content-section .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 350px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.content-section .card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.content-section .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #1f2937;
+}
+
+.content-section .card p {
+    font-size: 1rem;
+    color: #4a5568;
+    margin-bottom: 15px;
+}
+
+.content-section .card .social-links {
+    margin-top: 15px;
+}
+
+.content-section .card .social-links a {
+    margin: 0 10px;
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.content-section .card .social-links a:hover {
+    color: #0056b3;
+}
+
+/* Mission & Vision Sections */
+.mission-section,
+.vision-section {
+    padding: 30px 20px;
+    background: transparent;
+    text-align: center;
+}
+
+.mission-section h2,
+.vision-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: #1f2937;
+}
+
+.mission-section p,
+.vision-section p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #4a5568;
+}
+
+/* Call-to-Action Section */
+.cta-section {
+    background: #1f2937;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.cta-section p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    font-size: 1rem;
+}
+
+.cta-section a {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.cta-section a:hover {
+    background: #0056b3;
+}
