@@ -10,10 +10,12 @@ $is_logged_in = isset($_SESSION['user_id']);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Explore cutting-edge 3D printers and accessories at [Your Store Name]. Discover high-quality, affordable 3D printing solutions for hobbyists, professionals, and businesses.">
+        content="Explore cutting-edge 3D printers and accessories at [Your Store Name]. 
+        Discover high-quality, affordable 3D printing solutions for hobbyists, professionals, and businesses.">
     <meta name="keywords"
-        content="3D printers, 3D printing, affordable 3D printers, professional 3D printers, 3D printing accessories, 3D printing materials, filament, resin printers, FDM printers, SLA printers">
-    <meta name="author" content="[Your Store Name] | 3D Printing Experts">
+        content="3D printers, 3D printing, affordable 3D printers, professional 3D printers, 
+        3D printing accessories, 3D printing materials, filament, resin printers, FDM printers, SLA printers">
+    <meta name="author" content="3D World | 3D Printing Experts">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
     <meta name="rating" content="General">
@@ -35,7 +37,7 @@ $is_logged_in = isset($_SESSION['user_id']);
 
         <nav class="navbar">
             <ul class="nav-links">
-                <li><a href="home.php">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="printers.php">3D Printers</a></li>
                 <li><a href="materials.php">Materials</a></li>
                 <li><a href="about-us.php">About Us</a></li>
@@ -75,9 +77,6 @@ $is_logged_in = isset($_SESSION['user_id']);
     </div>
 
     <div id="side-nav" class="side-nav">
-        <button class="close-btn" id="close-btn">
-            <i class="bi bi-x"></i>
-        </button>
         <ul class="side-nav-links">
             <li><a href="index.php">Home</a></li>
             <li><a href="printers.php">3D Printers</a></li>
